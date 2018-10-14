@@ -1,0 +1,25 @@
+{
+  "name": "node-playground",
+  "version": "1.0.0",
+  "description": "Playground for new and exiting Node.js features",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "exec": "node dist/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravmahto/node-playground.git"
+  },
+  "author": "Gaurav Mahto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gauravmahto/node-playground/issues"
+  },
+  "homepage": "https://github.com/gauravmahto/node-playground#readme",
+  "devDependencies": {
+    "@types/node": "10.11.7",
+    "tslint": "^5.11.0",
+    "typescript": "3.1.3"
+  }
+}

@@ -1,0 +1,4 @@
+# Ignore non-source dirs
+node_modules
+dist
+.history
